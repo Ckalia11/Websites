@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="website.css">
+    <link href="https://fonts.googleapis.com/css?family=Sonsie+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+   
+
+
+
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    
+</head>
+<body>
+    <script src="website.js"></script>
+        <div class="w3-sidebar w3-bar-block w3-collapse w3-animate-left" id ="mySidebar" style="width:200px;">
+          <button class="w3-bar-item w3-button w3-large w3-hide-large" onclick="w3_close()">Close &times;</button>  
+         
+                <button class="w3-button" style = "font-family:'Raleway', sans-serif; font-weight: bold; width: 100%; text-align: left;">Shop Now </button>
+              
+          <div class="w3-dropdown-click">
+                <button class="w3-button " onclick="myCoolFunc()">
+                        <span style = "font-family:'Raleway', sans-serif;">Men</span><i class="fa fa-caret-down"></i>
+                        </button>
+                        <div id="demoAbb" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                          <a href="#" class="w3-bar-item w3-button">Tops</a>
+                          <a href="#" class="w3-bar-item w3-button">Bottoms</a>
+                        </div>
+                </div>
+               
+                <div class="w3-dropdown-click">
+                <button class="w3-button" onclick="myAccFunc()"><span style = "font-family:'Raleway', sans-serif;">Women</span> <i class="fa fa-caret-down"></i>
+                </button>
+                <div id="demoAcc" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                  <a href="#" class="w3-bar-item w3-button">Tops</a>
+                  <a href="#" class="w3-bar-item w3-button">Bottoms</a>
+                </div>
+                </div>
+                <div class="w3-dropdown-click">
+                  <button class="w3-button " onclick="myVoolFunc()"><span style = "font-family:'Raleway', sans-serif;">Children</span><i class="fa fa-caret-down"></i>
+                          </button>
+                          <div id="demoAss" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                            <a href="#" class="w3-bar-item w3-button">Tops</a>
+                            <a href="#" class="w3-bar-item w3-button">Bottoms</a>
+                          </div>
+                  </div>
+              
+                <div class="w3-dropdown-click">
+                <button class="w3-button " onclick="myFoolFunc()"><span style = "font-family:'Raleway', sans-serif;">By Style</span><i class="fa fa-caret-down"></i>
+                        </button>
+                        <div id="demoAdd" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                          <a href="#" class="w3-bar-item w3-button">Retro</a>
+                          <a href="#" class="w3-bar-item w3-button">Modern</a>
+                          <a href="#" class="w3-bar-item w3-button">Classic</a>
+                          <a href="#" class="w3-bar-item w3-button">Simple</a>
+                          <a href="#" class="w3-bar-item w3-button">Country</a>
+                          <a href="#" class="w3-bar-item w3-button">Explosive</a>
+                        </div>
+                </div>
+                <div class="w3-dropdown-click">
+                        <button class="w3-button" onclick="myDroolFunc()"><span style = "font-family:'Raleway', sans-serif;">Sweaters</span><i class="fa fa-caret-down"></i>
+                              </button>
+                              <div id="demoMop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                                <a href="#" class="w3-bar-item w3-button">Men</a>
+                                <a href="#" class="w3-bar-item w3-button">Women</a>
+                                <a href="#" class="w3-bar-item w3-button">Children</a>
+                              </div> 
+                              </div>
+                              <div class="w3-dropdown-click">
+                                <button class="w3-button " onclick="myWoolFunc()"><span style = "font-family:'Raleway', sans-serif;">Tees</span><i class="fa fa-caret-down"></i>
+                                        </button>
+                                        <div id="demoApp" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                                          <a href="#" class="w3-bar-item w3-button">Men</a>
+                                          <a href="#" class="w3-bar-item w3-button">Women</a>
+                                          <a href="#" class="w3-bar-item w3-button">Children</a>
+                                        </div>
+                                </div>
+                             
+                                  <div class="w3-dropdown-click">
+                                  <button class="w3-button" onclick="myBoolFunc()"><span style = "font-family:'Raleway', sans-serif;">Shorts</span><i class="fa fa-caret-down"></i>
+                                      </button>
+                                      <div id="demoFlop" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                                        <a href="#" class="w3-bar-item w3-button">Men</a>
+                                        <a href="#" class="w3-bar-item w3-button">Women</a>
+                                        <a href="#" class="w3-bar-item w3-button">Children</a>
+                                      </div> 
+                                  </div>
+                                  <div class="w3-dropdown-click">
+                                    <button class="w3-button " onclick="myOoolFunc()"><span style = "font-family:'Raleway', sans-serif;">Jeans</span><i class="fa fa-caret-down"></i>
+                                            </button>
+                                            <div id="demoSad" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                                              <a href="#" class="w3-bar-item w3-button">Men</a>
+                                              <a href="#" class="w3-bar-item w3-button">Women</a>
+                                              <a href="#" class="w3-bar-item w3-button">Children</a>
+                                            </div>
+                                    </div>
+                                    <div class="w3-dropdown-click">
+                                    <button class="w3-button " onclick="myYoolFunc()"><span style = "font-family:'Raleway', sans-serif;">Joggers</span><i class="fa fa-caret-down"></i>
+                                            </button>
+                                            <div id="demoBad" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                                              <a href="#" class="w3-bar-item w3-button">Men</a>
+                                              <a href="#" class="w3-bar-item w3-button">Women</a>
+                                              <a href="#" class="w3-bar-item w3-button">Children</a>
+                                            </div>
+                                    </div>
+                                    <div class="w3-dropdown-click">
+                                      <button class="w3-button " onclick="myLoolFunc()"><span style = "font-family:'Raleway', sans-serif;">Shirts</span><i class="fa fa-caret-down"></i>
+                                              </button>
+                                              <div id="demoTad" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                                                <a href="#" class="w3-bar-item w3-button">Men</a>
+                                                <a href="#" class="w3-bar-item w3-button">Women</a>
+                                                <a href="#" class="w3-bar-item w3-button">Children</a>
+                                              </div>
+                                      </div>
+                                      <div class="w3-dropdown-click">
+                                        <button class="w3-button " onclick="myMoolFunc()"><span style = "font-family:'Raleway', sans-serif;">Capris</span><i class="fa fa-caret-down"></i>
+                                                </button>
+                                                <div id="demoLad" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                                                  <a href="#" class="w3-bar-item w3-button">Men</a>
+                                                  <a href="#" class="w3-bar-item w3-button">Women</a>
+                                                  <a href="#" class="w3-bar-item w3-button">Children</a>>
+                                                </div>
+                                        </div>
+                                        <div class="w3-dropdown-click">
+                                          <button class="w3-button " onclick="myNoolFunc()"><span style = "font-family:'Raleway', sans-serif;">Dresses</span><i class="fa fa-caret-down"></i>
+                                                  </button>
+                                                  <div id="demoPad" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                                                    <a href="#" class="w3-bar-item w3-button">Men</a>
+                                                    <a href="#" class="w3-bar-item w3-button">Women</a>
+                                                    <a href="#" class="w3-bar-item w3-button">Children</a>
+                                                  </div>
+                                          </div>
+                                          <div class="w3-dropdown-click">
+                                            <button class="w3-button " onclick="myQoolFunc()"><span style = "font-family:'Raleway', sans-serif;">Shoes</span><i class="fa fa-caret-down"></i>
+                                                    </button>
+                                                    <div id="demoKad" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                                                      <a href="#" class="w3-bar-item w3-button">Men</a>
+                                                      <a href="#" class="w3-bar-item w3-button">Women</a>
+                                                      <a href="#" class="w3-bar-item w3-button">Children</a>
+                                                    </div>
+                                            </div>
+                                            <div class="w3-dropdown-click">
+                                              <button class="w3-button " onclick="myJoolFunc()"><span style = "font-family:'Raleway', sans-serif;">Accessories</span><i class="fa fa-caret-down"></i>
+                                                      </button>
+                                                      <div id="demoHad" class="w3-dropdown-content w3-bar-block w3-white w3-card">
+                                                        <a href="#" class="w3-bar-item w3-button">Men</a>
+                                                        <a href="#" class="w3-bar-item w3-button">Women</a>
+                                                        <a href="#" class="w3-bar-item w3-button">Children</a>
+                                                      </div>
+                                              </div>
+                                              <div class="jk">
+                                                <img src="images/logo.png" alt="logo" width="189px" height="80px" style="margin-top:1rem;" >
+                                              </div>
+                                            
+               
+              </div>
+              
+              <div class="w3-main" style="margin-left:200px">
+                    <div class="w3">
+                      <button class="w3-button  w3-xlarge w3-hide-large" onclick="w3_open()">&#9776;</button>
+                      <div class="w3-container">
+                       
+                      </div>
+                    </div>
+
+   <header class ="head">
+       <div class="nav">
+           <a href="#a"><i class="fa fa-heart-o"></i>
+            Account</a>
+           <a href="#b">Sign in</a>
+           <a href="#c">Favourites</a>
+           <a href="#d"><i class="fa fa-shopping-bag"></i>
+            Shopping Bag</a>
+
+           
+       </div>
+
+       <div class="content">
+            <a href="#run"><i class="fa fa-phone"></i>
+              Customer Service</a>
+            <a href="#fly">Store Offers</a>
+        </div>
+       
+        <div class="lg">
+            <img src="images/logo.png" alt="logo" width="240px" height="100px">
+    </div> 
+    <div class="navi">
+        <a href="sample_page.html" target="_blank">Men</a>
+        <a href="sample_page.html"target="_blank">Women</a>
+        <a href="sample_page.html"target="_blank">Kids</a>
+        <a href="sample_page.html"target="_blank">Products</a>
+        <a href="sample_page.html"target="_blank">Sales</a>
+        <a href="sample_page.html"target="_blank">Contact</a>
+
+       
+</div>
+
+
+    <div class="srchbar">
+        <i class="fa fa-search searchIcon"></i>
+        <input class="searchBox" type="search" name="search" placeholder="Search Products...">
+        
+      </div>
+
+
+   </header> 
+
+   <div class="smack">
+                       
+     <a class ="shipping" href="#free"><span><i class="fa fa-automobile"></i></span>Free shipping over $50 with code 0050</a>  
+   <a class ="news" href="news"><span><i class="fa fa-bookmark"></i></span>Newsletter sign-up get 25% off!</a> 
+   <a class ="customer" href="#cusomter"> <span><i class="fa fa-phone"></i></span>Customer service 24/7</a> 
+
+</div>
+
+
+
+                    
+
+
+                        
+                            <div class="wrap yell">
+                                <img id="happy" src="images/yellow.jpg" alt="women" width="900px">
+                                <p>Be stylish this summer</p>
+                            </div>
+                        
+                        
+                 
+                      
+                        
+                          
+                              <div class="wrap  ">
+                                     
+                                        
+                                       
+                                <div class="box one yell"><img class ="sweater" src="images/sweater.jpg" alt="" width = "435px"></div>
+
+                                <div class="box two yell"> <img class = "jacket" src="images/jacket.jpg" alt="" width = "435px"><p id = "stew">Be stylish this summer</p></div>
+                            </div>
+                
+                            
+                               
+                      
+                                <div class="wrap slideanim yell  ">
+                                        <img class ="black" src="images/black.jpg" alt="" width="900px">
+                                        <p>Be stylish this summer</p>
+                                     </div>
+                       
+                         
+                        
+                                <div class="wrap slideanim yell ">
+                                        
+                                        <img class ="leather yell" src="images/leather.jpg" alt="" width = "450px"  style="max-width:50%;">
+                                        <img class ="dress yell" src="images/dress (2).jpg" alt="" width = "450px" style="max-width:50%;"><p>Be stylish this summer</p>
+                                       
+                                </div>
+                      
+                   
+                                <div class="wrap slideanim yell">
+                                        <img class ="hat" src="images/hat.jpg" alt="" width="300px"  style="max-width:30%;">
+                                        <img class ="clout" src="images/clout.jpg" alt="" width ="300px" style="max-width:30%;">
+                                        <img class ="jeans" src="images/jeans.jpg" alt="" width ="300px" style="max-width:30%;"><p id ="stew">Be stylish this summer</p>
+                                </div>
+                
+                        
+                       
+                                <div class="wrap slideanim yell">
+                                        <img class ="accessories" src="images/accessories.jpg" alt="" width = "900px" style="margin-bottom:30px;"><p>Be stylish this summer</p>
+                                </div>
+                       
+                        
+                            
+                                    <div class="run slideanim">
+                                            <div class="cont" style ="font-size: 1rem;">
+                                                    <h2 style="font-family:'Raleway', sans-serif;">Our Magazine</h2></br>
+                                            </div>
+                                            <div class="link">
+                                                <a href="#Mag" style="font-family:'Raleway', sans-serif; font-size: 1.2rem">Read Western Dragon's Magazine</a>
+                                            </div>
+                                            <div class="photo">
+                                                    <div id ="sky"><img src="images/love (2).jpg" alt="" >
+                                                        <h1 style = "font-family:'Raleway', sans-serif; ">Featured Fashion</h1><h2  style ="font-size: 1.2rem; font-family:'Raleway', sans-serif; ">Stories in blue</h2><a href="#story" style = "font-size: 1rem;font-family:'Raleway', sans-serif;">Read the story</a>
+                                                    </div> 
+                                                    <div id ="shine"><img src="images/shoes.jpg" alt=""  >
+                                                        <h1 style = "font-family:'Raleway', sans-serif; ">Editors Picks</h1><h2 style ="font-size: 1.2rem; font-family:'Raleway', sans-serif; ">Best accessories for Spring</h2><a href="#story" style ="font-size: 1.1rem;font-family:'Raleway', sans-serif;">Read the story</a>
+                                                    </div>
+                                                        
+                                                    <div id ="sun"><img src="images/belt.jpg" alt=""  >
+                                                        <h1 style = "font-family:'Raleway', sans-serif; ">Featured Fashion</h1><h2  style ="font-size: 1.2rem; font-family:'Raleway', sans-serif; ">Stories in white</h2><a href="#story" style ="font-size: 1.1rem; font-family:'Raleway', sans-serif;">Read the story</a>
+                                                    </div>
+                                                    
+                                                </div>
+            
+                                
+                            </div>
+                
+
+                   
+
+                             <div class="footer">
+       
+                                <div class="coi">
+                                        <div class="fray">Clothing</div>
+                                        <div class="fray ">Corporate Info</div>
+                                        <div class="fray">Join Us</div>
+                                        <div class="fray">Help</div>
+                                    </div>
+                                      <div class="joy">
+                                        
+                                              <div class="Gym">Full Catalog</div>
+                                              <div class="Gym">Investor Relations</div>
+                                              <div class="Gym">Newsletters</div>
+                                              <div class="Gym">Customer Service</div>
+                                              <div class="Gym">By Gender</div>
+                                              <div class="Gym">Meet our Team</div>
+                                              <div class="Gym">Career at WD</div>
+                                              <div class="Gym"> Store Locater</div>
+                                              <div class="Gym">By Size</div>
+                                              <div class="Gym">Sustainablity </div>
+                                              <div class="Gym">Sign-up</div>
+                                              <div class="Gym">Legal & Privacy</div>
+                                              
+                              
+                                              
+                                        
+                                      </div>
+                           
+                                
+                        
+                           
+                           </div>
+                                
+                             
+                                   
+
+                        <div class="foot">
+                                <div class="social">
+                                        <a href="#" class="fa fa-facebook"></a>
+                                        <a href="#" class="fa fa-twitter"></a>
+                                        <a href="#" class="fa fa-instagram"></a>
+                                        <a href="#" class="fa fa-snapchat-ghost"></a>
+                                        <a href="#" class="fa fa-google"></a>
+                                </div> 
+                         </div>
+
+                        <div class="text">
+                            <p style = "font-family:'Raleway', sans-serif; ">H&M’s business concept is to offer fashion and quality at the best price in a sustainable way. Since it was founded in 1947, H&M has grown into one of the world's leading fashion companies. The content of this site is copyright-protected and is the property of H & M Hennes & Mauritz AB.</p>
+                        </div>
+                        
+                        <div class="can">
+                            <p style = "font-family:'Raleway', sans-serif; ">Canada (en) | $</p>
+                        </div>   
+                        
+                               
+                        </div>
+                                    
+                        
+                    </div>
+    </body>
+</html>
