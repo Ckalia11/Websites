@@ -8,7 +8,6 @@ A sample Retail Website
 https://ckalia40.github.io/Retail-Website/
 
 A sample profile website
-
 https://ckalia149.github.io/Bootstrap/
 
 
